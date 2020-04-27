@@ -1,9 +1,9 @@
 # datatable2sql Nedir?
 
 
--Bu modül datatable için express.js üzerinde ajax yaparken search parametrelerini yönetmek ve sql cümleciği hazırlamak için geliştirilmiştir.  
--https://datatables.net/ acık kaynak kodlu bir veri listeleme ve tablo yönetim aracıdır.  
--https://expressjs.com/  Node js için geliştirilmiş hızlı, yönlendirme yapmayan, minimalist bir web geliştirme ortamıdır.  
+- Bu modül datatable için express.js üzerinde ajax yaparken search parametrelerini yönetmek ve sql cümleciği hazırlamak için geliştirilmiştir.  
+- https://datatables.net/ acık kaynak kodlu bir veri listeleme ve tablo yönetim aracıdır.  
+- https://expressjs.com/  Node js için geliştirilmiş hızlı, yönlendirme yapmayan, minimalist bir web geliştirme ortamıdır.  
 _____________
 #### **Geliştiren:Poyraz Alkan** 
 # Kullanım Şekli
@@ -363,11 +363,11 @@ app.post('/GWAD_Ogrenciler',d2sql.exCOL('EDİT'), d2sql.dataTableQuery2SQL("Is_d
 ### 
 
 
--d2sql.exCOL('EDİT') =========>>>>>> EDİT isimli kolonu cümlecik oluştururken hariç tut.
--d2sql.exCOL ara katmanı birden fazla kolon için kullanılacaksa bir kolon isimlerinden oluşan array gönderilebilir. 
--d2sql.exCOL(['EDİT','OgrencilerDurum']) gibi kullanılır.
+- d2sql.exCOL('EDİT') =========>>>>>> EDİT isimli kolonu cümlecik oluştururken hariç tut.
+- d2sql.exCOL ara katmanı birden fazla kolon için kullanılacaksa bir kolon isimlerinden oluşan array gönderilebilir. 
+- örnek:d2sql.exCOL(['EDİT','OgrencilerDurum']) gibi kullanılır.
 
--d2sql.dataTableQuery2SQL("Is_deleted=0") =========>>>>>> oluşacak olan cümleye "Is_deleted=0" koşulunuda dahil et.
+- d2sql.dataTableQuery2SQL("Is_deleted=0") =========>>>>>> oluşacak olan cümleye "Is_deleted=0" koşulunuda dahil et.
 
  
 
