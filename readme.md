@@ -363,11 +363,11 @@ app.post('/GWAD_Ogrenciler',d2sql.exCOL('EDİT'), d2sql.dataTableQuery2SQL("Is_d
 ### 
 
 
-- d2sql.exCOL('EDİT') =========>>>>>> EDİT isimli kolonu cümlecik oluştururken hariç tut.
+- d2sql.exCOL('EDİT') // EDİT isimli kolonu cümlecik oluştururken hariç tut.
 - d2sql.exCOL ara katmanı birden fazla kolon için kullanılacaksa bir kolon isimlerinden oluşan array gönderilebilir. 
 - örnek:d2sql.exCOL(['EDİT','OgrencilerDurum']) gibi kullanılır.
 
-- d2sql.dataTableQuery2SQL("Is_deleted=0") =========>>>>>> oluşacak olan cümleye "Is_deleted=0" koşulunuda dahil et.
+- d2sql.dataTableQuery2SQL("Is_deleted=0") // oluşacak olan cümleye "Is_deleted=0" koşulunuda dahil et.
 
  
 
