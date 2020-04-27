@@ -1,11 +1,10 @@
 # datatable2sql Nedir?
 ### 
-Bu modül datatable için express.js üzerinde ajax yaparken search parametrelerini yönetmek ve sql cümleciği hazırlamak için geliştirilmiştir.
-https://datatables.net/ acık kaynak kodlu bir veri listeleme ve tablo yönetim aracıdır.
-https://expressjs.com/  Node js için geliştirilmiş hızlı, yönlendirme yapmayan, minimalist bir web geliştirme ortamıdır.
+-Bu modül datatable için express.js üzerinde ajax yaparken search parametrelerini yönetmek ve sql cümleciği hazırlamak için geliştirilmiştir.
+-https://datatables.net/ acık kaynak kodlu bir veri listeleme ve tablo yönetim aracıdır.
+-https://expressjs.com/  Node js için geliştirilmiş hızlı, yönlendirme yapmayan, minimalist bir web geliştirme ortamıdır.
 _____________
 #### **Geliştiren:Poyraz Alkan** 
-=============
 # Kullanım Şekli
 **Önyüzde Kullanım şekli aşağıdaki gibidir.**
 ```html
