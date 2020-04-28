@@ -1,0 +1,26 @@
+{
+  "name": "datatables2sql",
+  "version": "1.0.0",
+  "description": "//TR",
+  "main": "datatable2sql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poyrazdaka/datatable2sql.git"
+  },
+  "keywords": [
+    "datatabeles",
+    "sql",
+    "query",
+    "search",
+    "fields"
+  ],
+  "author": "poyraz alkan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poyrazdaka/datatable2sql/issues"
+  },
+  "homepage": "https://github.com/poyrazdaka/datatable2sql#readme"
+}
